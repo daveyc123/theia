@@ -24,6 +24,7 @@ export namespace QuickOpenOptions {
         prefix: '',
         placeholder: '',
         onClose: () => { /* no-op*/ },
+        mustMatchLabel: true,
         fuzzyMatchLabel: false,
         fuzzyMatchDetail: false,
         fuzzyMatchDescription: false,
